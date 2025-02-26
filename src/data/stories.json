@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title": "Undercero Overcero",
+    "description": "Description of E-book 1",
+    "image": "/img/Undercero.jpg",
+    "genre": "Terror",
+    "content": "/txt/ebook1.md"
+  },
+  {
+    "id": 2,
+    "title": "E-book 2",
+    "description": "Description of E-book 2",
+    "image": "/img/Undercero.jpg",
+    "genre": "Misterio",
+    "content": "Full text of E-book 2..."
+  },
+  {
+    "id": 3,
+    "title": "E-book 3",
+    "description": "Description of E-book 3",
+    "image": "/img/Undercero.jpg",
+    "genre": "Ciencia Ficción",
+    "content": "Full text of E-book 3..."
+  },
+  {
+    "id": 4,
+    "title": "E-book 4",
+    "description": "Description of E-book 4",
+    "image": "/img/Undercero.jpg",
+    "genre": "Ciencia Ficción",
+    "content": "Full text of E-book 4..."
+  },
+  {
+    "id": 5,
+    "title": "E-book 5",
+    "description": "Description of E-book 5",
+    "image": "/img/Undercero.jpg",
+    "genre": "Ciencia Ficción",
+    "content": "Full text of E-book 5..."
+  },
+  {
+    "id": 6,
+    "title": "E-book 6",
+    "description": "Description of E-book 6",
+    "image": "/img/Undercero.jpg",
+    "genre": "Ciencia Ficción",
+    "content": "Full text of E-book 6..."
+  },
+  {
+    "id": 7,
+    "title": "E-book 7",
+    "description": "Description of E-book 7",
+    "image": "/img/Undercero.jpg",
+    "genre": "Ciencia Ficción",
+    "content": "Full text of E-book 7..."
+  },
+  {
+    "id": 8,
+    "title": "E-book 8",
+    "description": "Description of E-book 8",
+    "image": "/img/Undercero.jpg",
+    "genre": "Ciencia Ficción",
+    "content": "Full text of E-book 8..."
+  }
+]
