@@ -17,7 +17,7 @@ function BookDetail({ book, onBack }) {
         });
         setChapters(contentChapters);
         setCurrentPage(1); // Start with the first chapter
-        setContent(contentChapters[1]);
+        setContent(contentChapters[0]);
       });
   }, [book.content]);
 
@@ -39,6 +39,7 @@ function BookDetail({ book, onBack }) {
     <div className="book-detail">
       <button className="back-button" onClick={onBack}>Back</button>
       <h2>{book.title}</h2>
+      <img src={book.image} alt={book.title} className="book-detail-image" />
       <ReactMarkdown>{content}</ReactMarkdown>
       <div className="navigation">
         <button onClick={prevPage} disabled={currentPage === 1}>Anterior</button>

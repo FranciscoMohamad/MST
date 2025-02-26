@@ -31,7 +31,7 @@ function App() {
     <div className="App">
       {!selectedBook && (
         <div className="App-sidebar">
-          <img src="/img/MST.jpg" alt="Logo" className="App-logo" />
+          <img src="./img/MST.jpg" alt="Logo" className="App-logo" />
           <h2>MST</h2>
           <Filter genres={genres} selectedGenre={selectedGenre} onGenreChange={setSelectedGenre} />
         </div>
