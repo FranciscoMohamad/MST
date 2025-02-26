@@ -10,7 +10,12 @@ function App() {
   const [selectedBook, setSelectedBook] = useState(null);
 
   useEffect(() => {
-    setStories(storiesData);
+    const updatedStories = storiesData.map(story => ({
+      ...story,
+      image: `${process.env.PUBLIC_URL}${story.image}`,
+      content: `${process.env.PUBLIC_URL}${story.content}`
+    }));
+    setStories(updatedStories);
   }, []);
 
   const genres = [...new Set(storiesData.map(story => story.genre))];
@@ -31,7 +36,7 @@ function App() {
     <div className="App">
       {!selectedBook && (
         <div className="App-sidebar">
-          <img src="./img/MST.jpg" alt="Logo" className="App-logo" />
+          <img src={`${process.env.PUBLIC_URL}/img/MST.jpg`} alt="Logo" className="App-logo" />
           <h2>MST</h2>
           <Filter genres={genres} selectedGenre={selectedGenre} onGenreChange={setSelectedGenre} />
         </div>
